@@ -29,10 +29,9 @@ const Meta = imports.gi.Meta;
 const UPower = imports.gi.UPowerGlib;
 const GLib = imports.gi.GLib;
 const PanelMenu = imports.ui.panelMenu;
-const Shell = imports.gi.Shell;
-const MessageTray = imports.ui.messageTray;
-const Atk = imports.gi.Atk;
-const Config = imports.misc.config;
+const PopupMenu = imports.ui.popupMenu;
+const QuickSettingsMenu = Main.panel.statusArea.quickSettings;
+const QuickSettings = imports.ui.quickSettings;
 
 const Gettext = imports.gettext.domain('gnome-shell-extension-espresso');
 const _ = Gettext.gettext;
